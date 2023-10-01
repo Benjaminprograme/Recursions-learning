@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="index.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recursions</title>
 </head>
 <body>
-    <input id="input" type="number" placeholder="Type youre number here">
+    <input onchange="resetText()" id="input" type="number" placeholder="Type youre number here">
+    <button onclick="recuringFunction()">Get the factorial of youre number</button>
     <h1>Youre factorial is:</h1>
+    <p id="text"></p>
 </body>
 </html>
